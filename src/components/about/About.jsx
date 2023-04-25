@@ -40,10 +40,12 @@ const About = () => {
           <p>
             Have knowledge and skills to use: <br />
             - REST APIs, MS SQL, Web servers, Cloud (Azure Portal), Firebase. <br />
-            - Good use of Ant Design, Ant Design Pro. <br />
+            - Good use of Ant Design, Ant Design Pro, MUI, Bootstrap. <br />
             - HTML5, CSS, Javascript/TypeScript. <br />
             - Experience in using Github, Github Desktop, SourceTree for project
-            management. <br /><br />
+            management. <br />
+            - Virtual Reality 360 <br />
+            <br />  
             Spirit/Attitude: <br />
             - Hardworking, eager to learn <br />
             - Good communication (listening, presenting) <br />

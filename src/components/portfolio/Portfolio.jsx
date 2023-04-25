@@ -3,7 +3,6 @@ import "./portfolio.css";
 import Shopee from "../../assets/Shopee-rmbg.png";
 import Musicplayer from "../../assets/musicplayer.png";
 import Musicplayer2 from "../../assets/musicplayer2.png";
-import CV from "../../assets/CV.PNG";
 import Weather from "../../assets/Weather-rmbg.png";
 import NoName from "../../assets/noname.png";
 import PortfolioCV from "../../assets/me-removebg.png";
@@ -14,7 +13,7 @@ const data = [
   {
     id: 1,
     img: Shopee,
-    title: "Shopee Clone (Web Only)",
+    title: "Shopee Clone",
     subtitle: "HTML, CSS",
     github:
       "https://github.com/hoanglg6699/lgh.github.io/tree/main/ShopeeClone",
@@ -29,21 +28,21 @@ const data = [
       "https://github.com/hoanglg6699/lgh.github.io/tree/main/MusicPlayer",
     demo: "https://hoanglg6699.github.io/lgh.github.io/MusicPlayer/",
   },
-  {
-    id: 3,
-    img: CV,
-    title: "Ultimate CV",
-    subtitle: "ReactJS, swiper, emailjs-com",
-    github: "#portfolio",
-    demo: "https://online-cv-hoanglg.vercel.app/",
-  },
+  // {
+  //   id: 3,
+  //   img: CV,
+  //   title: "Ultimate CV",
+  //   subtitle: "ReactJS, swiper, emailjs-com",
+  //   github: "#portfolio",
+  //   demo: "https://online-cv-hoanglg.vercel.app/",
+  // },
   {
     id: 4,
     img: Musicplayer2,
     title: "Music Player",
     subtitle: "ReactJS",
-    github: "https://github.com/hoanglg6699/MusicPlayer",
-    demo: "https://musicplayer-hoanglg.vercel.app/",
+    github: "https://github.com/hoanglg-workplace/music-player",
+    demo: "https://musicplayer-hoangworkplace.vercel.app/",
   },
   {
     id: 5,
@@ -56,7 +55,7 @@ const data = [
   {
     id: 6,
     img: NoName,
-    title: "NoName Project (Web Only)",
+    title: "NoName Project",
     subtitle: "ReactJS, UmiJS, AntDesign/AntDesignPro",
     github: "https://github.com/hoanglg6699/NoNameProject",
     demo: "https://nonameproject.vercel.app/",
@@ -66,24 +65,24 @@ const data = [
     img: PortfolioCV,
     title: "Portfolio",
     subtitle: "ReactJS, react-tsparticles, framer-motion, react-router-dom",
-    github: "https://github.com/hoanglg6699/StunningCV",
-    demo: "https://stunningcv-hoanglg.vercel.app/",
+    github: "https://github.com/hoanglg-workplace/portfolio",
+    demo: "https://portfolio-hoangworkplace.vercel.app/",
   },
   {
     id: 8,
     img: TheGym,
     title: "The Gym",
     subtitle: "ReactJS, antd, framer-motion, emailjs",
-    github: "https://github.com/hoanglg6699/TheGym",
-    demo: "https://hoanglg-thegym.vercel.app/",
+    github: "https://github.com/hoanglg-workplace/the-gym",
+    demo: "https://thegym-hoangworkplace.vercel.app/",
   },
   {
     id: 9,
     img: Lofi,
     title: "Lofi",
     subtitle: "ReactJS, @emotion/react, @emotion/styled, sass",
-    github: "https://github.com/hoanglg6699/lofi-music",
-    demo: "https://hoanglg-lofi.vercel.app/",
+    github: "https://github.com/hoanglg-workplace/lofi",
+    demo: "https://lofi-hoangworkplace.vercel.app/",
   },
 ];
 
@@ -103,9 +102,9 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <h5>{subtitle}</h5>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target={"_blank"}>
+                {/* <a href={github} className="btn" target={"_blank"}>
                   Github
-                </a>
+                </a> */}
                 <a href={demo} className="btn btn-primary" target={"_blank"}>
                   Live Demo
                 </a>
