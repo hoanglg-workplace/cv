@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate CV</title>
-    <link rel="shortcut icon" href="hoang_favicon.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate CV</title>
+  <link rel="shortcut icon" href="hoang_favicon.png" type="image/x-icon">
+
+  <meta name="description" content="Ultimate CV" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="googlebot" content="notranslate" />
+  <meta property="og:title" content="Ultimate CV - Developed by Ly Gia Hoang" />
+  <meta property="og:description" content="Front End Web Developer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="It's not a bug, It's a feature" />
+  <meta property="og:image"
+    content="https://drive.google.com/file/d/1C4ydYVd6CAsZmfhbUZyrm4sdHzYdTJS3/view?usp=sharing" />
+  <meta property="og:image:alt" content="HoangLG Logo" />
 </head>
+
 <body>
-    <div id="root"></div>
+  <div id="root"></div>
 
-    <!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
+  <!-- Messenger Plugin chat Code -->
+  <div id="fb-root"></div>
 
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+  <!-- Your Plugin chat code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "119219167816301");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "119219167816301");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
 
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v16.0'
-        });
-      };
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v16.0'
+      });
+    };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 </body>
+
 </html>
